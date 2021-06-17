@@ -1,0 +1,11 @@
+[ { "repository": "kernel_xiaomi_santoni", 
+"target_path": "kernel/xiaomi/santoni"
+  },
+  { "repository": "vendor_xiaomi_santoni", 
+"target_path": "vendor/xiaomi/santoni"
+  },
+  { "remote": "github", "repository": 
+    "LineageOS/android_hardware_xiaomi", 
+"target_path": "hardware/xiaomi", "branch": "lineage-18.1"
+  }
+]

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2021 The LineageOS Project
+#Copyright (C) 2019-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,6 +27,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Prebuilt apps
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
+
+#OFFICIAL MAINTAINER
+CUSTOM_MAINTAINER := TioBurla
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
